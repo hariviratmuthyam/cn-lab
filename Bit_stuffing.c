@@ -8,7 +8,7 @@ int main()
     for (x = 0; x < n; x++)
         scanf("%d", &in[x]);
     while (i < n) {
-        count=0;
+        count=1;
         if (in[i] == 1)
         {
             out[j] = in[i];
